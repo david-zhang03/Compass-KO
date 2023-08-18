@@ -1,0 +1,72 @@
+Compass: Single-sample mode
+Supplied Arguments: 
+   data: ['/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/DTP/ASPC1_matrix.mtx', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/DTP/ASPC1_genes.tsv', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/DTP/ASPC1_barcodes.tsv']
+   data_mtx: ['/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/DTP/ASPC1_matrix.mtx', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/DTP/ASPC1_genes.tsv', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/DTP/ASPC1_barcodes.tsv']
+   model: HumanGEM
+   species: homo_sapiens
+   custom: /home/dzhang/Compass_Integration/model_xml/0_1_models/ASPC1_DTP_0_75.xml
+   knockout: None
+   media: default-media
+   output_dir: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/custom_no_lambda/try/ASPC1/DTP
+   temp_dir: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/custom_no_lambda/try/ASPC1/DTP/tmpASPC1
+   torque_queue: None
+   num_processes: 15
+   lambda: 0
+   single_sample: None
+   transposed: False
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   and_function: mean
+   select_reactions: None
+   select_subsystems: None
+   glucose: None
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: True
+   precache: False
+   input_knn: None
+   input_knn_distances: None
+   output_knn: None
+   latent_space: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/DTP/ASPC1_umap.tsv
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: None
+   microcluster_file: None
+   microcluster_data_file: None
+   anndata_output: False
+   anndata_obs: None
+   anndata_uns: None
+   detailed_perf: False
+   penalties_file: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/custom_no_lambda/try/ASPC1/DTP/tmpASPC1/penalties.txt.gz
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   isoform_summing: remove-summing
+   list_genes: None
+   list_reactions: None
+
+COMPASS Started: 2023-07-06 08:49:34.444648
+Running COMPASS on model: HumanGEM
+Processing Sample 15/48: AGCTCCTAGATTACCC-2
+Evaluating Reaction Penalties...
+Evaluating Reaction Scores...
+Evaluating Exchange/Secretion/Uptake Scores...
+Writing output files...
+Compass Penalty Time: 0.09647961100563407
+Compass Reaction Time:23590.451380922925
+Processed13036reactions
+Compass Exchange Time:26266.102243581787
+Processed 5912 uptake reactions
+Processed 5912 secretion reactions
+COMPASS Completed Successfully
+
+Elapsed Time: 13:51:13.372518
