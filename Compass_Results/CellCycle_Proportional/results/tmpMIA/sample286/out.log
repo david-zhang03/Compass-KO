@@ -1,0 +1,13 @@
+Running COMPASS on model: RECON2_mat
+Processing Sample 286/297: AGATCTGTCGCGCCAA-3-1
+Evaluating Reaction Penalties...
+Evaluating Reaction Scores...
+Evaluating Exchange/Secretion/Uptake Scores...
+Writing output files...
+Compass Penalty Time: 0.2968478165566921
+Compass Reaction Time:1159.398997887969
+Processed10211reactions
+Compass Exchange Time:1928.8617287054658
+Processed 5063 uptake reactions
+Processed 5063 secretion reactions
+COMPASS Completed Successfully
