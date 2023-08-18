@@ -1,0 +1,44 @@
+Cache for model and media already built
+Evaluating Reaction Penalties...
+Processing 49 samples using 15 processes
+Progress bar will update once the first sample is finished
+  0%|          | 0/49 [00:00<?, ?it/s]multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/compass/main.py", line 711, in _parallel_map_fun
+    sample_index=i, args=args
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/compass/compass/algorithm.py", line 112, in singleSampleCompass
+    perf_log=perf_log, args=args)
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/compass/compass/algorithm.py", line 551, in compass_reactions
+    value = problem.solution.get_objective_value()
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/cplex/_internal/_subinterfaces.py", line 7209, in get_objective_value
+    return CPX_PROC.getobjval(self._env._e, self._cplex._lp)
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/cplex/_internal/_procedural.py", line 1991, in getobjval
+    check_status(env, status)
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/cplex/_internal/_procedural.py", line 249, in __call__
+    raise CplexSolverError(error_string, env, status)
+cplex.exceptions.errors.CplexSolverError: CPLEX Error  1217: No solution exists.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/compass/main.py", line 720, in _parallel_map_fun
+    raise(Exception(str(e)))
+Exception: CPLEX Error  1217: No solution exists.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dzhang/miniconda3/envs/compass/bin/compass", line 8, in <module>
+    sys.exit(entry())
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/compass/main.py", line 630, in entry
+    runCompassParallel(args)
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/site-packages/compass/main.py", line 666, in runCompassParallel
+    for _ in pool.imap_unordered(partial_map_fun, range(n_samples)):
+  File "/home/dzhang/miniconda3/envs/compass/lib/python3.7/multiprocessing/pool.py", line 748, in next
+    raise value
+Exception: CPLEX Error  1217: No solution exists.
+  0%|          | 0/49 [01:52<?, ?it/s]
