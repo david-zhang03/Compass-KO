@@ -1,0 +1,13 @@
+Running COMPASS on model: HumanGEM
+Processing Sample 17/49: TACTCGCTCATAGCAC-5
+Evaluating Reaction Penalties...
+Evaluating Reaction Scores...
+Evaluating Exchange/Secretion/Uptake Scores...
+Writing output files...
+Compass Penalty Time: 0.09956970810890198
+Compass Reaction Time:12771.815087199211
+Processed19189reactions
+Compass Exchange Time:16146.662246480584
+Processed 8443 uptake reactions
+Processed 8443 secretion reactions
+COMPASS Completed Successfully

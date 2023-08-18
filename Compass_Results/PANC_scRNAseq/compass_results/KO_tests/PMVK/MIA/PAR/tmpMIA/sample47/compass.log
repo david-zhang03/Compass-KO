@@ -1,0 +1,73 @@
+Compass: Single-sample mode
+Supplied Arguments: 
+   data: ['/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/MIA/PAR/MIA_matrix.mtx', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/MIA/PAR/MIA_genes.tsv', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/MIA/PAR/MIA_barcodes.tsv']
+   data_mtx: ['/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/MIA/PAR/MIA_matrix.mtx', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/MIA/PAR/MIA_genes.tsv', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/MIA/PAR/MIA_barcodes.tsv']
+   model: HumanGEM
+   species: homo_sapiens
+   custom: None
+   knockout: ['PMVK']
+   knockout_type: both
+   media: default-media
+   output_dir: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/PMVK/MIA/PAR
+   temp_dir: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/PMVK/MIA/PAR/tmpMIA
+   torque_queue: None
+   num_processes: 16
+   lambda: 0.25
+   single_sample: None
+   transposed: False
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   and_function: mean
+   select_reactions: None
+   select_subsystems: None
+   glucose: None
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: True
+   precache: False
+   input_knn: None
+   input_knn_distances: None
+   output_knn: None
+   latent_space: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/MIA/PAR/MIA_umap.tsv
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: None
+   microcluster_file: None
+   microcluster_data_file: None
+   anndata_output: False
+   anndata_obs: None
+   anndata_uns: None
+   detailed_perf: False
+   penalties_file: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/PMVK/MIA/PAR/tmpMIA/penalties.txt.gz
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   isoform_summing: remove-summing
+   list_genes: None
+   list_reactions: None
+
+COMPASS Started: 2023-07-21 09:02:06.114214
+Running COMPASS on model: HumanGEM
+Processing Sample 47/48: ATTACTCTCTGCGTAA-3
+Evaluating Reaction Penalties...
+Evaluating Reaction Scores...
+Evaluating Exchange/Secretion/Uptake Scores...
+Writing output files...
+Compass Penalty Time: 0.18690957315266132
+Compass Reaction Time:14315.421642653644
+Processed19190reactions
+Compass Exchange Time:13464.498716974631
+Processed 8443 uptake reactions
+Processed 8443 secretion reactions
+COMPASS Completed Successfully
+
+Elapsed Time: 7:43:26.835126

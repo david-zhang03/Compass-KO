@@ -1,0 +1,76 @@
+Compass version: 0.9.11.6
+Git commit: Not in Git repo
+Python Version:
+3.7.10 (default, Jun  4 2021, 14:48:32) 
+[GCC 7.5.0]
+Python prefix: /home/dzhang/miniconda3/envs/compass
+Numpy version: 1.20.3
+Pandas version: 1.2.4
+Supplied Arguments: 
+   data: ['/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/PAR/ASPC1_matrix.mtx', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/PAR/ASPC1_genes.tsv', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/PAR/ASPC1_barcodes.tsv']
+   data_mtx: ['/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/PAR/ASPC1_matrix.mtx', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/PAR/ASPC1_genes.tsv', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/PAR/ASPC1_barcodes.tsv']
+   model: HumanGEM
+   species: homo_sapiens
+   custom: None
+   knockout: ['ACSL5']
+   knockout_type: both
+   media: default-media
+   output_dir: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/ACSL5/ASPC1/PAR
+   temp_dir: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/ACSL5/ASPC1/PAR/tmpASPC1
+   torque_queue: None
+   num_processes: 20
+   lambda: 0.25
+   single_sample: None
+   transposed: False
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   and_function: mean
+   select_reactions: None
+   select_subsystems: None
+   glucose: None
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: True
+   precache: False
+   input_knn: None
+   input_knn_distances: None
+   output_knn: None
+   latent_space: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/ASPC1/PAR/ASPC1_umap.tsv
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: None
+   microcluster_file: None
+   microcluster_data_file: None
+   anndata_output: False
+   anndata_obs: None
+   anndata_uns: None
+   detailed_perf: False
+   penalties_file: 
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   isoform_summing: remove-summing
+   list_genes: None
+   list_reactions: None
+Gene-Reaction Knockouts: 
+ACSL5: ['MAR04097_pos', 'MAR04097_neg', 'MAR04108_pos', 'MAR04108_neg', 'MAR04133_pos', 'MAR04133_neg', 'MAR04145_pos', 'MAR04145_neg', 'MAR08211_pos', 'MAR08211_neg', 'MAR05334_pos', 'MAR05334_neg', 'MAR11394_pos', 'MAR11394_neg']
+
+COMPASS Started: 2023-07-18 15:53:25.531597
+Cache for model and media already built
+Evaluating Reaction Penalties...
+Processing 48 samples using 20 processes
+Progress bar will update once the first sample is finished
+Collecting results from: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/ACSL5/ASPC1/PAR/tmpASPC1
+Writing output to: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/ACSL5/ASPC1/PAR
+COMPASS Completed Successfully
+
+Elapsed Time: 2 days, 11:09:57.797429

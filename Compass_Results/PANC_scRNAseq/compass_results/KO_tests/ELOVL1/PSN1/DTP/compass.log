@@ -1,0 +1,76 @@
+Compass version: 0.9.11.7
+Git commit: Not in Git repo
+Python Version:
+3.7.10 (default, Jun  4 2021, 14:48:32) 
+[GCC 7.5.0]
+Python prefix: /home/dzhang/miniconda3/envs/compass
+Numpy version: 1.20.3
+Pandas version: 1.2.4
+Supplied Arguments: 
+   data: ['/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/PSN1/DTP/PSN1_matrix.mtx', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/PSN1/DTP/PSN1_genes.tsv', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/PSN1/DTP/PSN1_barcodes.tsv']
+   data_mtx: ['/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/PSN1/DTP/PSN1_matrix.mtx', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/PSN1/DTP/PSN1_genes.tsv', '/home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/PSN1/DTP/PSN1_barcodes.tsv']
+   model: HumanGEM
+   species: homo_sapiens
+   custom: None
+   knockout: ['ELOVL1']
+   knockout_type: both
+   media: default-media
+   output_dir: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/ELOVL1/PSN1/DTP
+   temp_dir: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/ELOVL1/PSN1/DTP/tmpPSN1
+   torque_queue: None
+   num_processes: 20
+   lambda: 0.25
+   single_sample: None
+   transposed: False
+   sample_range: None
+   reaction_range: None
+   metabolite_range: None
+   generate_cache: False
+   test_mode: False
+   num_threads: 1
+   and_function: mean
+   select_reactions: None
+   select_subsystems: None
+   glucose: None
+   collect: False
+   config_file: None
+   num_neighbors: 30
+   symmetric_kernel: False
+   input_weights: None
+   penalty_diffusion: knn
+   no_reactions: False
+   calc_metabolites: True
+   precache: False
+   input_knn: None
+   input_knn_distances: None
+   output_knn: None
+   latent_space: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_files/PSN1/DTP/PSN1_umap.tsv
+   only_penalties: None
+   example_inputs: None
+   microcluster_size: None
+   microcluster_file: None
+   microcluster_data_file: None
+   anndata_output: False
+   anndata_obs: None
+   anndata_uns: None
+   detailed_perf: False
+   penalties_file: 
+   lpmethod: 4
+   advance: 2
+   save_argmaxes: False
+   isoform_summing: remove-summing
+   list_genes: None
+   list_reactions: None
+Gene-Reaction Knockouts: 
+ELOVL1: ['MAR02521_pos', 'MAR02521_neg', 'MAR03394_pos', 'MAR03394_neg', 'MAR03395_pos', 'MAR03395_neg', 'MAR03401_pos', 'MAR03401_neg', 'MAR03402_pos', 'MAR03402_neg', 'MAR03403_pos', 'MAR03403_neg', 'MAR03405_pos', 'MAR03405_neg', 'MAR03410_pos', 'MAR03410_neg', 'MAR03412_pos', 'MAR03412_neg', 'MAR03417_pos', 'MAR03417_neg', 'MAR03418_pos', 'MAR03418_neg', 'MAR03438_pos', 'MAR03438_neg', 'MAR03442_pos', 'MAR03442_neg', 'MAR03451_pos', 'MAR03451_neg', 'MAR03465_pos', 'MAR03465_neg', 'MAR03474_pos', 'MAR03474_neg', 'MAR03479_pos', 'MAR03479_neg', 'MAR03487_pos', 'MAR03487_neg', 'MAR03490_pos', 'MAR03490_neg', 'MAR03492_pos', 'MAR03492_neg', 'MAR03495_pos', 'MAR03495_neg', 'MAR03496_pos', 'MAR03496_neg', 'MAR03497_pos', 'MAR03497_neg', 'MAR03499_pos', 'MAR03499_neg', 'MAR03502_pos', 'MAR03502_neg', 'MAR03504_pos', 'MAR03504_neg', 'MAR03507_pos', 'MAR03507_neg', 'MAR03518_pos', 'MAR03518_neg', 'MAR03535_pos', 'MAR03535_neg', 'MAR03607_pos', 'MAR03607_neg', 'MAR03608_pos', 'MAR03608_neg', 'MAR03609_pos', 'MAR03609_neg', 'MAR03610_pos', 'MAR03610_neg', 'MAR03611_pos', 'MAR03611_neg', 'MAR03612_pos', 'MAR03612_neg', 'MAR03615_pos', 'MAR03615_neg', 'MAR03616_pos', 'MAR03616_neg', 'MAR03617_pos', 'MAR03617_neg', 'MAR03621_pos', 'MAR03621_neg', 'MAR03624_pos', 'MAR03624_neg', 'MAR03749_pos', 'MAR03749_neg']
+
+COMPASS Started: 2023-07-20 02:18:29.688235
+Cache for model and media already built
+Evaluating Reaction Penalties...
+Processing 49 samples using 16 processes
+Progress bar will update once the first sample is finished
+Collecting results from: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/ELOVL1/PSN1/DTP/tmpPSN1
+Writing output to: /home/dzhang/Compass_Results/PANC_scRNAseq/compass_results/KO_tests/ELOVL1/PSN1/DTP
+COMPASS Completed Successfully
+
+Elapsed Time: 1 day, 13:26:19.449268
